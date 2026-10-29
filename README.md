@@ -27,7 +27,7 @@ Use this learning path to understand the key concepts, explore common agent work
 
 ### 3. PDF: Claude Code in VS Code
 
-[Claude Code in VS Code: the tricks I use every day](resources/claude_code_vscode_tricks.pdf) (31 slides, in English)
+[Claude Code in VS Code: the tricks I use every day](resources/claude_code_vscode_tricks.pdf) (32 slides)
 
 A practical tour organized into four sections:
 
