@@ -25,7 +25,8 @@ With a customized setup and a few learning processes, it starts to learn what *y
 |---|----------|-----------------|
 | 1 | [Agent Harness explained](https://www.youtube.com/watch?v=Vzt4tB4ga1I) | An introduction to agent harnesses and why they matter. **Start here.** |
 | 2 | [How to Build your own Agent Harness](https://www.youtube.com/watch?v=c85qiEJCGdM) | A hands-on guide to building your own harness. |
-| 3 | [Video](https://www.youtube.com/watch?v=7zZy1QTvokM) | Another walkthrough on setting up your agent environment. |
+| 3 | [Spec, Verifier, Environment](https://www.youtube.com/watch?v=7zZy1QTvokM) | Another walkthrough on setting up your agent environment. |
+| 4 | [Building verification loops](https://www.youtube.com/watch?v=mQZB0l-rhxE) | How to build verification loops for your agents. |
 
 ### 2. Cheat sheet: 7 common agent workflow patterns
 
