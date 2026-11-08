@@ -25,8 +25,9 @@ With a customized setup and a few learning processes, it starts to learn what *y
 | 2 | Video | [How to Build your own Agent Harness](https://www.youtube.com/watch?v=c85qiEJCGdM) | A hands-on guide to building your own harness. |
 | 3 | Video | [Spec, Verifier, Environment](https://www.youtube.com/watch?v=7zZy1QTvokM) | Another walkthrough on setting up your agent environment. |
 | 4 | Video | [Building verification loops](https://www.youtube.com/watch?v=mQZB0l-rhxE) | How to build verification loops for your agents. |
-| 5 | Article | [Grok Bot tutorial](https://x.com/0xCodez/status/2089676836619878567) | A written, step-by-step tutorial for building a Grok bot. |
-| 6 | Image | [7 common agent workflow patterns](resources/harness-patterns.png) | A one-page cheat sheet of common agent workflows (Ralph Loop, ReAct, Orchestrator-Worker, and more). |
-| 7 | PDF | [Claude Code in VS Code: the tricks I use every day](resources/claude_code_vscode_tricks.pdf) | 35 slides on starting, configuring, orchestrating, and amplifying Claude Code. The examples focus on coding, but the techniques also apply to reports, research, and documents. |
+| 5 | PDF | [Claude Code in VS Code, simplified (for complete beginners)](resources/claude_code_vscode_tricks_simplified.pdf) | **Start here for the slides.** 31 slides, VS Code extension only: first steps and folder structure, CLAUDE.md, the LLM wiki, skills (global vs local, with real examples), and the Ralph loop hands-on. The agent does the work: you describe, it builds. Editable version: [.pptx](resources/claude_code_vscode_tricks_simplified.pptx). |
+| 6 | PDF | [Claude Code in VS Code, advanced](resources/claude_code_vscode_tricks_advanced.pdf) | The original 35 slides, with the CLI, terminal flags, agents, hooks, MCP and review commands. Editable version: [.pptx](resources/claude_code_vscode_tricks_advanced.pptx). |
+| 7 | Article | [Grok Bot tutorial](https://x.com/0xCodez/status/2089676836619878567) | A written, step-by-step tutorial for building a Grok bot. |
+| 8 | Image | [7 common agent workflow patterns](resources/harness-patterns.png) | A one-page cheat sheet of common agent workflows (Ralph Loop, ReAct, Orchestrator-Worker, and more). |
 
 [![AI Agent Harness Workflows: 7 Common Patterns](resources/harness-patterns.png)](resources/harness-patterns.png)
