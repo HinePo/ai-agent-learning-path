@@ -71,6 +71,14 @@ The fastest start: let Claude replicate the setup shown in the beginner deck for
       create-ppt-presentation, create-tests, run-tests, etc.) in ~/.claude/skills/.
     - Add the project structure it recommends (data/, llm-wiki/ with index.md,
       plans/ with progress.md, src/, outputs/, test/) with a project CLAUDE.md.
+    - Set up the LLM wiki: an llm-wiki/ folder that you (the agent) write and
+      maintain, with index.md as the map (repo map of every folder and a list of
+      pages) and linked pages like glossary, decisions, open-questions and
+      use-cases, using [[wikilinks]]. Add only the pages the project needs.
+    - Make CLAUDE.md keep the wiki alive: read llm-wiki/index.md first in every
+      session; when you learn or decide something, update the matching page; when
+      you add a folder or page, update the repo map in index.md; at the end of a
+      session, keep plans/ and progress.md in sync.
     - Set up the Ralph loop as the PDF describes: instructions in my global
       CLAUDE.md (work from plans/ and progress.md, one phase at a time, run the
       exit gate, log evidence in progress.md), plus the skill that creates the
@@ -142,14 +150,3 @@ Behavior lives in `.claude/` (`settings.json` for permissions and hooks, `rules/
 ## 6. Eight habits to take home
 
 ![Eight habits to take home](resources/images/eight-habits.png)
-
-1.  **Folder + data/**: one folder per job, everything in `data/`.
-2.  **Initialize**: `/initialize-project` builds the structure.
-3.  **CLAUDE.md**: your instructions, loaded every session.
-4.  **LLM wiki**: project memory the agents keep updated.
-5.  **Skills**: turn what you repeat into a slash command.
-6.  **Plan + gates**: phases, each with a pass-or-fail check.
-7.  **progress.md**: the memory. Start a fresh chat and say "next phase".
-8.  **Just ask**: skills, rules, hooks, connectors: Claude writes them.
-
-**You describe. Claude does the rest.**
