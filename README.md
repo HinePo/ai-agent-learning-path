@@ -21,13 +21,12 @@ With a customized setup and a few learning processes, it starts to learn what *y
 
 | # | Type | Resource | What you'll learn |
 |---|------|----------|-------------------|
-| 1 | Video | [Agent Harness explained](https://www.youtube.com/watch?v=Vzt4tB4ga1I) | What agent harnesses are and why they matter. **Start here.** |
-| 2 | Video | [How to Build your own Agent Harness](https://www.youtube.com/watch?v=c85qiEJCGdM) | A hands-on guide to building your own harness. |
-| 3 | Video | [Spec, Verifier, Environment](https://www.youtube.com/watch?v=7zZy1QTvokM) | Another walkthrough on setting up your agent environment. |
-| 4 | Video | [Building verification loops](https://www.youtube.com/watch?v=mQZB0l-rhxE) | How to build verification loops for your agents. |
-| 5 | PDF | [Claude Code in VS Code, simplified (for complete beginners)](resources/claude_code_vscode_tricks_simplified.pdf) | **Start here for the slides.** 31 slides, VS Code extension only: first steps and folder structure, CLAUDE.md, the LLM wiki, skills (global vs local, with real examples), and the Ralph loop hands-on. The agent does the work: you describe, it builds. Editable version: [.pptx](resources/claude_code_vscode_tricks_simplified.pptx). |
-| 6 | PDF | [Claude Code in VS Code, advanced](resources/claude_code_vscode_tricks_advanced.pdf) | The original 35 slides, with the CLI, terminal flags, agents, hooks, MCP and review commands. Editable version: [.pptx](resources/claude_code_vscode_tricks_advanced.pptx). |
-| 7 | Article | [Grok Bot tutorial](https://x.com/0xCodez/status/2089676836619878567) | A written, step-by-step tutorial for building a Grok bot. |
-| 8 | Image | [7 common agent workflow patterns](resources/harness-patterns.png) | A one-page cheat sheet of common agent workflows (Ralph Loop, ReAct, Orchestrator-Worker, and more). |
-
-[![AI Agent Harness Workflows: 7 Common Patterns](resources/harness-patterns.png)](resources/harness-patterns.png)
+| 1 | Summary | [Summary: harness and Claude Code guide](summary.md) | **Start here.** Harness concepts, agent workflow patterns, how to set up and run Claude Code in VS Code, folder structure and eight habits. |
+| 2 | Video | [Agent Harness explained](https://www.youtube.com/watch?v=Vzt4tB4ga1I) | What agent harnesses are and why they matter. |
+| 3 | Video | [How to Build your own Agent Harness](https://www.youtube.com/watch?v=c85qiEJCGdM) | A hands-on guide to building your own harness. |
+| 4 | Video | [Spec, Verifier, Environment](https://www.youtube.com/watch?v=7zZy1QTvokM) | Another walkthrough on setting up your agent environment. |
+| 5 | Video | [Building verification loops](https://www.youtube.com/watch?v=mQZB0l-rhxE) | How to build verification loops for your agents. |
+| 6 | PDF | [Claude Code in VS Code, simplified (for complete beginners)](resources/simplified/claude_code_vscode_tricks_simplified.pdf) | **Start here for the slides.** 31 slides, VS Code extension only: first steps and folder structure, CLAUDE.md, the LLM wiki, skills (global vs local, with real examples), and the Ralph loop hands-on. The agent does the work: you describe, it builds. Editable version: [.pptx](resources/simplified/claude_code_vscode_tricks_simplified.pptx). |
+| 7 | PDF | [Claude Code in VS Code, advanced](resources/advanced/claude_code_vscode_tricks_advanced.pdf) | The original 35 slides, with the CLI, terminal flags, agents, hooks, MCP and review commands. Editable version: [.pptx](resources/advanced/claude_code_vscode_tricks_advanced.pptx). |
+| 8 | Article | [Grok Bot tutorial](https://x.com/0xCodez/status/2089676836619878567) | A written, step-by-step tutorial for building a Grok bot. |
+| 9 | Image | [7 common agent workflow patterns](resources/images/agent-workflow-patterns.png) | A one-page cheat sheet of common agent workflows (Ralph Loop, ReAct, Orchestrator-Worker, and more). |
