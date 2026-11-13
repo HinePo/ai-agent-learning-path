@@ -145,6 +145,8 @@ my-project/
 
 Behavior lives in `.claude/` (`settings.json` for permissions and hooks, `rules/`, `skills/`). Add it when you need it, or just ask Claude to create it.
 
+![What to configure, by importance](resources/images/what-to-configure.png)
+
 ---
 
 ## 6. Eight habits to take home
