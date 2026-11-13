@@ -108,6 +108,8 @@ Go to `File > Open Folder...` and select your project. Click the Claude Code ico
 **Step 4: Talk it through**
 Don't build immediately. Tell Claude: *"Read `data/`. The problem is [X]. Don't plan or build yet. Ask me what is unclear and give me options."* Brainstorm and make your decisions out loud.
 
+Tip: type `@` and a file name to point Claude at a specific file (e.g. `@data/brief.pdf`), just like `/` calls a skill. That way there is no doubt about which file you mean.
+
 **Step 5: Initialize the Project**
 Once aligned, type `/initialize-project`. Claude will scaffold the ideal structure: writing your `CLAUDE.md`, creating the `llm-wiki/`, `plans/`, `src/`, `outputs/`, and `test/` folders.
 
